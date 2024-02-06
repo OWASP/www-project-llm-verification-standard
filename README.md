@@ -22,11 +22,11 @@ We gratefully recognise the organizations who have supported the project either 
 
 ## Project Leaders and Working Group
 
-The project is led by the two project leaders [Vandana Verma Sehgal](#) and [Elliot Ward](#).
+The project is led by the two project leaders [Vandana Sehgal](https://github.com/vermava) and [Elliot Ward](https://github.com/mowzk).
 
 ## Initial Draft Version - 0.0.1
 
-The latest stable version is version 0.0.1 (dated January 2024), which can be found:
+The latest stable version is version 0.0.1 (dated February 2024), which can be found:
 * [OWASP Large Language Model Security Verification Standard 0.0.1 English (PDF)](#)
 
 The master branch of this repository will always be the "bleeding edge version" which might have in-progress changes or other edits open.
