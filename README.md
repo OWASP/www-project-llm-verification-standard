@@ -27,7 +27,7 @@ The project is led by the two project leaders [Vandana Verma Sehgal](https://git
 ## Initial Draft Version - 0.0.1
 
 The latest stable version is version 0.0.1 (dated February 2024), which can be found:
-* [OWASP Large Language Model Security Verification Standard 0.0.1 English (PDF)](#)
+* [OWASP Large Language Model Security Verification Standard 0.0.1 English (PDF)](https://github.com/OWASP/www-project-llm-verification-standard/releases/tag/1.0)
 
 The master branch of this repository will always be the "bleeding edge version" which might have in-progress changes or other edits open.
 
