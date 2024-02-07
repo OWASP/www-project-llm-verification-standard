@@ -22,7 +22,7 @@ We gratefully recognise the organizations who have supported the project either 
 
 ## Project Leaders and Working Group
 
-The project is led by the two project leaders [Vandana Sehgal](https://github.com/vermava) and [Elliot Ward](https://github.com/mowzk).
+The project is led by the two project leaders [Vandana Verma Sehgal](https://github.com/vermava) and [Elliot Ward](https://github.com/mowzk).
 
 ## Initial Draft Version - 0.0.1
 
