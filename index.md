@@ -9,16 +9,16 @@ pitch: A very brief, one-line description of your project
 
 ---
 
-<!-- rebuild 0001 -->
+The primary aim of the OWASP Large Language Model Security Verification Standard (LLMSVS) Project is to provide an open security standard for systems that leverage artificial intelligence and Large Language Models.
 
-This is an example of a Project or Chapter Page.  Please change these items to indicate the actual information you wish to present.  In addition to this information, the 'front-matter' above this text should be modified to reflect your actual information.  An explanation of each of the front-matter items is below:
+The standard provides a basis for designing, building, and testing robust LLM backed applications, including architectural, model lifecycle, model training, model operation and integration, model storage and monitoring concerns.
 
-layout: This is the layout used by project and chapter pages.  You should leave this value as col-sidebar
+## Initial Draft Version - 0.1
 
-title: This is the title of your project or chapter page, usually the name.  For example, OWASP Zed Attack Proxy or OWASP Baltimore
+The latest stable version is version 0.1 (dated February 2024), which can be found:
+* [OWASP Large Language Model Security Verification Standard 0.1 English (PDF)](https://github.com/OWASP/www-project-llm-verification-standard/releases/tag/0.1)
 
-tags: This is a space-delimited list of tags you associate with your project or chapter.  If you are using tabs, at least one of these tags should be unique in order to be used in the tabs files (an example tab is included in this repo) 
+The master branch of this repository will always be the "bleeding edge version" which might have in-progress changes or other edits open.
 
-level: For projects, this is your project level (2 - Incubator, 3 - Lab, 3.5 - Production, 4 - Flagship)
 
-type: code, tool, documentation, or other
+We gratefully recognise the organizations who have supported the project either through significant time provision or financially on our "Supporters" page!
