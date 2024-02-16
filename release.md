@@ -1,8 +1,10 @@
 ---
-title: LLM Release
-layout:  null
+layout: col-sidebar
+title: OWASP LLM Release
+tags: example-tag
+type: other
 tab: true
-order: 1
+order: 3
 tags: release-tag
 ---
 
