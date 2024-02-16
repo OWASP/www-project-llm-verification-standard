@@ -1,7 +1,7 @@
 ### LLM Verification Standard Information
 * [Incubator Project](#)
 * [Type of Project](#)
-* [Version 0.0.0](#)
+* [Version 0.1](#)
 * [Builder](#)
 * [Breaker](#)
 
@@ -10,7 +10,7 @@
 * [Meetup](#)
 
 ### Code Repository
-* [repo](#)
+* [repo](https://github.com/OWASP/www-project-llm-verification-standard)
 
 ### Change Log
 * [changes](#)
