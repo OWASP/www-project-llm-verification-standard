@@ -4,7 +4,7 @@ layout: col-sidebar
 title: OWASP LLM Verification Standard
 tags: example-tag
 level: 2
-type: 
+type: other
 pitch: A very brief, one-line description of your project
 
 ---
