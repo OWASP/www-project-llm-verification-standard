@@ -1,7 +1,7 @@
 ---
 
 layout: col-sidebar
-title: OWASP LLM Verification Standard
+title: OWASP LLM Security Verification Standard
 tags: llm
 level: 2
 type: documentation
