@@ -15,12 +15,14 @@
 ### Downloads or Social Links
 
 * [Download](https://github.com/OWASP/www-project-llm-verification-standard/releases/tag/0.1)
-* [Meetup](https://owasp.org/slack/invite)
+* [Join OWASP Group Slack](https://owasp.org/slack/invite)
+* [Join #project-llmvs Channel](https://owasp.slack.com/messages/C06MDJG0KBK)
+
 
 ### Code Repository
 
-* [repo](https://github.com/OWASP/www-project-llm-verification-standard)
+* [Repo](https://github.com/OWASP/www-project-llm-verification-standard)
 
 ### Change Log
 
-* [changes](https://github.com/OWASP/www-project-llm-verification-standard/releases)
+* [Changes](https://github.com/OWASP/www-project-llm-verification-standard/releases)
