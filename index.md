@@ -26,7 +26,7 @@ The latest stable version is version 0.1 (dated February 2024), which can be fou
 
 The master branch of this repository will always be the "bleeding edge version" which might have in-progress changes or other edits open.
 
-We gratefully recognize the organizations who have supported the project either through significant time provision or financially on our "Supporters" page!
+We gratefully recognize the organizations who have supported the project either through significant time provision or financially on our "[Supporters](https://github.com/OWASP/www-project-llm-verification-standard/blob/main/SUPPORTERS.md)" page!
 
 ## Standard Objectives
 
