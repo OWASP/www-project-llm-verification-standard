@@ -1,8 +1,8 @@
 ---
 
 layout: col-sidebar
-title: OWASP LLM Verification Standard
-tags: llm builders defenders breakers
+title: OWASP LLM Security Verification Standard
+tags: llm builders defenders
 level: 2
 type: documentation
 pitch: The standard provides a basis for designing, building, and testing robust LLM backed applications
