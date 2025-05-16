@@ -1,5 +1,5 @@
 # Base stage for installing fonts
-FROM pandoc/latex:latest as font_base
+FROM docker.io/pandoc/latex:latest as font_base
 
 WORKDIR /fonts
 RUN apk add --no-cache curl unzip && \
@@ -28,12 +28,14 @@ RUN apk add --no-cache \
     make \
     fontconfig \
     font-noto-cjk \
-    freetype \
-    && pip3 install --upgrade pip \
+    freetype
+    
+RUN python3 -m venv /opt/venv \
+    && /opt/venv/bin/pip3 install --upgrade pip \
     && fc-cache -fv
 
 # Python setup
-RUN pip3 install dicttoxml2 setuptools==69.0.3
+RUN /opt/venv/bin/pip3 install dicttoxml2 setuptools==69.0.3
 
 # Install KOMA-Script and any other necessary LaTeX packages
 RUN for i in 1 2 3 4 5; do tlmgr install \
