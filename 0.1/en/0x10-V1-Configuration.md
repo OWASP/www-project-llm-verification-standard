@@ -9,3 +9,8 @@ Ensure that LLMs, hosted by a model provider or self-hosted, are configured and 
 | 1.2 | For self-hosted LLMs, ensure they are appropriately segregated within the network to prevent direct exposure to end-users unless such access is required. |      | ✓ | ✓ |
 | 1.3 | Maintain an up-to-date inventory of all LLM instances and apply regular updates and patches to self-hosted models. |      |      | ✓ |
 | 1.4 | Perform and document regular configuration reviews for configuration settings associated with the LLM-powered system.  |      |      | ✓ |
+| 1.5 | Ensure that LLM output is first inspected in a sandboxed environment. This is especially pertinent if the LLM is used to generate code. [\[1\]](#sandbox) |      |      | ✓ |
+
+## References
+
+<a id="sandbox">\[1\] https://arxiv.org/pdf/2309.10254 - suggested for LLM plugins, but approach could also be applied to LLM output</a>

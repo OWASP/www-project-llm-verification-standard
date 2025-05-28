@@ -11,3 +11,9 @@ Ensure that mechanisms which allow for “memory” or additional knowledge that
 | 4.4 | Ensure that external storage components such as vector databases and caches require authentication for consumers. | ✓ | ✓ | ✓ |
 | 4.5 | Enforce the principle of least privilege for accessing production storage components, such as vector databases and caches. |      | ✓ | ✓ |
 | 4.6 | When updating embeddings within a knowledge base, ensure that an adversary is not able to inject arbitrary documents or otherwise insert false information into the knowledge base. | ✓ | ✓ | ✓ |
+| 4.7 | If LLM accepts messages from different roles, e.g. "system", "admin", "user", etc., make sure that it is not possible to impersonate roles. [\[1\]](#role_sep) |      | ✓ | ✓ |
+
+
+## References
+
+<a id="role_sep">\[1\] https://arxiv.org/pdf/2310.12815</a>

@@ -11,3 +11,8 @@ Ensure that third-party components and dependencies are safely handled to reduce
 | 7.4 | Ensure that a Software Bill of Materials (SBOM) exists cataloging third-party components, licenses, and versions. |      | ✓ | ✓ |
 | 7.5 | Where unsafe PyTorch models are required, ensure the model is scanned for potentially dangerous Python imports. |      | ✓ | ✓ |
 | 7.6 | When hosting LLM components within private package registries, ensure the setup is not susceptible to Dependency Confusion attacks. |      | ✓ | ✓ |
+| 7.7 | Make sure third-party components are aware of possible LLM vulnerabilities and employ mitigations against possible attacks, such as proper input validation, sanitizing and output encoding. [\[1\]](#portswigger) |      | ✓ | ✓ |
+
+## References
+
+<a id="portswigger">\[1\] https://portswigger.net/web-security/llm-attacks#exploiting-llm-apis-functions-and-plugins</a>
