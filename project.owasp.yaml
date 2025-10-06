@@ -1,0 +1,30 @@
+audience:
+  - breaker
+  - builder
+  - defender
+community:
+  - name: project-llmvs
+    platform: slack
+    url: https://owasp.slack.com/archives/C06MDJG0KBK
+    description: "Link to the Project\n<https://owasp.org/www-project-llm-verification-standard/>"
+leaders:
+  - name: Vandana Verma Sehgal
+    email: vandana.verma@owasp.org
+    github: vermava
+  - name: Elliot Ward
+    github: mowzk
+level: 2
+license:
+  - CC-BY-SA-4.0
+name: OWASP LLM Security Verification Standard
+pitch: The standard provides a basis for designing, building, and testing robust LLM backed applications
+repositories:
+  - name: www-project-llm-verification-standard
+    url: https://github.com/OWASP/www-project-llm-verification-standard
+    description: Project LLM Verification Standard
+tags:
+  - llm
+  - builders
+  - defenders
+type: documentation
+website: https://owasp.org/www-project-llm-verification-standard
