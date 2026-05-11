@@ -1,6 +1,7 @@
 {
     "files.exclude": {
         ".vscode": true,
+        "**/.vscode": true,
         "0.1": true,
         "docker": true,
         "assets": true,
