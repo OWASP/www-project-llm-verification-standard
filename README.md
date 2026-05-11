@@ -29,9 +29,9 @@ The project is led by the two project leaders [Vandana Verma Sehgal](https://git
 
 ## Standard documents (Markdown)
 
-- **[LLMSVS v2.0 (English)](OWASP_Large_Language_Model_Security_Verification_Standard-v2.0_en.md)** — current draft aligned with the upcoming 2.0 release.
+- **[LLMSVS v2.0 (English)](LLMSVS-v2.0-en.md)** — Markdown edition of the English 2.0 release.
 
-- **[LLMSVS v1.0 (English)](OWASP_Large_Language_Model_Security_Verification_Standard-v1.0_en.md)** — Markdown edition matching the historical **0.1** publication track (February 2024); same requirement numbering as the community PDF:
+- **[LLMSVS v1.0 (English)](LLMSVS-v1.0-en.md)** — Markdown edition matching the historical **0.1** publication track (February 2024); same requirement numbering as the community PDF:
 
 ## Version 2.0 is set to release on June 15th
 
