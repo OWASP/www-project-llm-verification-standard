@@ -1,0 +1,9 @@
+{
+    "files.exclude": {
+        ".vscode": true,
+        "0.1": true,
+        "docker": true,
+        "assets": true,
+        "404.html": true
+    }
+}

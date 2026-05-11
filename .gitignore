@@ -3,5 +3,6 @@
 /favicon.ico
 _site/
 
-# Editor / IDE (local only)
-.vscode/
+# Editor / IDE — shared workspace UI excludes
+.vscode/*
+!.vscode/settings.json
