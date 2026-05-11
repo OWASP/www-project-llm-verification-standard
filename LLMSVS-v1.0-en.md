@@ -36,7 +36,7 @@ This document is the Markdown edition of the OWASP LLMSVS English release. It co
 - [V8. Monitoring and anomaly detection](#v8-monitoring-and-anomaly-detection)
 - [Appendix A: Glossary](#appendix-a-glossary)
 
----
+***
 
 ## Frontispiece
 
@@ -80,7 +80,7 @@ The LLMSVS project was founded as a way to share knowledge gained from research 
 
 Lakera, a security company that empowers developers to confidently build secure Generative AI applications, reviewed and proofread an early draft of this standard, providing guidance based on their expertise with model lifecycle security and secure LLM integration.
 
----
+***
 
 ## Preface
 
@@ -96,7 +96,7 @@ This alpha release invites the broader community to participate in developing an
 
 We’d like to thank the contributors for their valuable input and look forward to your continued support and involvement in developing the LLMSVS.
 
----
+***
 
 ## Utilizing the LLMSVS
 
@@ -128,7 +128,7 @@ When utilizing the LLMSVS, it’s important to keep in mind the following assump
 
 While the LLMSVS offers a comprehensive framework for enhancing the security of LLM-powered applications, it cannot ensure complete security. It should be viewed as a foundational set of security requirements, with additional protective measures taken as needed to mitigate specific LLM risks and threats.
 
----
+***
 
 ## Assessment and certification
 
@@ -148,7 +148,7 @@ It is important to note that the LLMSVS only covers the security requirements pe
 
 Certification reports should clearly define the verification scope, particularly noting any exclusions, and summarize findings with details on both passed and failed tests, including guidance for addressing failures. Industry-standard practice requires detailed documentation of the verification process, including work papers, screenshots, scripts for issue replication, and electronic testing records such as proxy logs. Automated tool results alone are insufficient; documentation must provide conclusive evidence of thorough and rigorous testing of all controls. In case of disputes, sufficient evidence should be present to verify that each verified control has indeed been tested.
 
----
+***
 
 ## V1. Secure configuration and maintenance
 
@@ -163,7 +163,7 @@ Ensure that LLMs, hosted by a model provider or self-hosted, are configured and 
 | 1.3 | Maintain an up-to-date inventory of all LLM instances and apply regular updates and patches to self-hosted models. | | | ✓ |
 | 1.4 | Perform and document regular configuration reviews for configuration settings associated with the LLM-powered system. | | | ✓ |
 
----
+***
 
 ## V2. Model lifecycle
 
@@ -192,7 +192,7 @@ Ensure that the Machine Learning (ML) lifecycle for models used within LLM-power
 | 2.17 | Before a model is finalized for deployment, conduct a thorough risk assessment to understand potential security, ethical, and operational risks. This assessment should guide the decision-making process regarding the deployment of the model. | | | ✓ |
 | 2.18 | Ensure there is a clear plan for decommissioning models that are no longer in use. This includes securely erasing data, model parameters, and any sensitive information associated with the model to prevent unauthorized access or misuse. | | | ✓ |
 
----
+***
 
 ## V3. Real time learning
 
@@ -208,7 +208,7 @@ Establish controls to reduce the risks associated with real time learning within
 | 3.4 | Regularly analyze user interactions to identify and mitigate attempts to manipulate the model into inappropriate behavior. | | | ✓ |
 | 3.5 | Consider using an incremental learning approach where the model can be updated in increments with human approval. | | | ✓ |
 
----
+***
 
 ## V4. Model memory and storage
 
@@ -225,7 +225,7 @@ Ensure that mechanisms which allow for “memory” or additional knowledge that
 | 4.5 | Enforce the principle of least privilege for accessing production storage components, such as vector databases and caches. | | ✓ | ✓ |
 | 4.6 | When updating embeddings within a knowledge base, ensure that an adversary is not able to inject arbitrary documents or otherwise insert false information into the knowledge base. | ✓ | ✓ | ✓ |
 
----
+***
 
 ## V5. Secure LLM integration
 
@@ -253,7 +253,7 @@ Establish controls that enable safe interactions and operations between applicat
 | 5.16 | Define baselines for normal LLM interactions and monitor and alert when abnormal LLM interactions are detected. | | | ✓ |
 | 5.17 | Ensure any functionality that allows anonymous users to preview features is properly restricted to allow only the necessary features. | | ✓ | ✓ |
 
----
+***
 
 ## V6. Agents and plugins
 
@@ -276,7 +276,7 @@ The autonomous nature of agent-based systems presents new risks and can increase
 | 6.11 | Consider manual approval, sometimes referred to as “human in the loop,” for sensitive operations before autonomous agents can continue execution. | | | ✓ |
 | 6.12 | Ensure that agents are executed in a sand-boxed ephemeral environment to reduce the risk of agent prompts which result in code execution due to software defects. | | | ✓ |
 
----
+***
 
 ## V7. Dependency and component
 
@@ -293,7 +293,7 @@ Ensure that third-party components and dependencies are safely handled to reduce
 | 7.5 | Where unsafe PyTorch models are required, ensure the model is scanned for potentially dangerous Python imports. | | ✓ | ✓ |
 | 7.6 | When hosting LLM components within private package registries, ensure the setup is not susceptible to Dependency Confusion attacks. | | ✓ | ✓ |
 
----
+***
 
 ## V8. Monitoring and anomaly detection
 
@@ -306,7 +306,7 @@ Continuously monitor the use of LLM-powered applications to detect anomalous beh
 | 8.1 | Continuously monitor the usage patterns of LLM applications for anomalies that could indicate security incidents, such as unexpected spikes in usage or deviations from typical output patterns. | | ✓ | ✓ |
 | 8.2 | Establish logging and alerting mechanisms for events that could suggest prompt leaks, such as the appearance of canary tokens (see 5.7) in logs or unexpected language patterns. | | ✓ | ✓ |
 
----
+***
 
 ## Appendix A: Glossary
 

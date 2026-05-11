@@ -1,9 +1,9 @@
 ---
-
-## title: OWASP Large Language Model Security Verification Standard
+title: OWASP Large Language Model Security Verification Standard
 lang: en
 version: '2.0'
 status: release
+---
 
 # LLMSVS v2.0 — OWASP Large Language Model Security Verification Standard (LLMSVS)
 
@@ -36,7 +36,7 @@ This document is the Markdown edition of the OWASP LLMSVS English release. It ca
 - [V8. Monitoring and anomaly detection](#v8-monitoring-and-anomaly-detection)
 - [Appendix A: Glossary](#appendix-a-glossary)
 
----
+***
 
 ## Frontispiece
 
@@ -53,7 +53,7 @@ Copyright © 2008–2026 The OWASP Foundation. This document is released under t
 - Vandana Verma Sehgal  
 - Elliot Ward
 
----
+***
 
 ## Preface
 
@@ -71,7 +71,7 @@ We invite the broader community to participate in developing and enhancing the L
 
 We’d like to thank the contributors for their valuable input and look forward to your continued support and involvement in developing the LLMSVS.
 
----
+***
 
 ## Utilizing the LLMSVS
 
@@ -111,7 +111,7 @@ Several LLMSVS requirements refer to the [OWASP Application Security Verificatio
 | Parameterized queries and database injection prevention when untrusted data (including LLM output) influences queries | Chapter **V5**, **V5.3.4**                         | Chapter **V1**, **V1.2.4** “Injection Prevention”                                                  |
 
 
----
+***
 
 ## Assessment and certification
 
@@ -131,7 +131,7 @@ It is important to note that the LLMSVS only covers the security requirements pe
 
 Certification reports should clearly define the verification scope, particularly noting any exclusions, and summarize findings with details on both passed and failed tests, including guidance for addressing failures. Industry-standard practice requires detailed documentation of the verification process, including work papers, screenshots, scripts for issue replication, and electronic testing records such as proxy logs. Automated tool results alone are insufficient; documentation must provide conclusive evidence of thorough and rigorous testing of all controls. In case of disputes, sufficient evidence should be present to verify that each verified control has indeed been tested.
 
----
+***
 
 ## V1. Secure configuration and maintenance
 
@@ -148,7 +148,7 @@ Ensure that LLMs, hosted by a model provider or self-hosted, are configured and 
 | 1.4 | Perform and document regular configuration reviews for configuration settings associated with the LLM-powered system.                                                                                                                                                                                                      |     |     | ✓   |
 
 
----
+***
 
 ## V2. Model lifecycle
 
@@ -179,7 +179,7 @@ Ensure that the Machine Learning (ML) lifecycle for models used within LLM-power
 | 2.18 | Ensure there is a clear plan for decommissioning models that are no longer in use. This includes securely erasing data, model parameters, and any sensitive information associated with the model to prevent unauthorized access or misuse.      |     |     | ✓   |
 
 
----
+***
 
 ## V3. Real time learning
 
@@ -197,7 +197,7 @@ Establish controls to reduce the risks associated with real time learning within
 | 3.5 | Consider using an incremental learning approach where the model can be updated in increments with human approval.                                                                                                                                                                              |     |     | ✓   |
 
 
----
+***
 
 ## V4. Model memory and storage
 
@@ -216,7 +216,7 @@ Ensure that mechanisms providing “memory” or additional knowledge not includ
 | 4.6 | When updating embeddings within a knowledge base, ensure that an adversary is not able to inject arbitrary documents or otherwise insert false information into the knowledge base.                                                  | ✓   | ✓   | ✓   |
 
 
----
+***
 
 ## V5. Secure LLM integration
 
@@ -246,7 +246,7 @@ Establish controls that enable safe interactions and operations between applicat
 | 5.17 | Ensure any functionality that allows anonymous users to preview features is properly restricted to allow only the necessary features.                                                                                                                                                                                                                                                                                                                                                                                                                     |     | ✓   | ✓   |
 
 
----
+***
 
 ## V6. Agents and plugins
 
@@ -271,7 +271,7 @@ The autonomous nature of agent-based systems—including use of **tools**, **plu
 | 6.12 | Ensure that agents are executed in a sandboxed ephemeral environment to reduce the risk of agent prompts which result in code execution due to software defects.                                                                                                                 |     |     | ✓   |
 
 
----
+***
 
 ## V7. Dependency and component
 
@@ -290,7 +290,7 @@ Ensure that third-party components and dependencies are safely handled to reduce
 | 7.6 | When hosting LLM components within private package registries, ensure the setup is not susceptible to Dependency Confusion attacks.                               |     | ✓   | ✓   |
 
 
----
+***
 
 ## V8. Monitoring and anomaly detection
 
@@ -305,7 +305,7 @@ Continuously monitor the use of LLM-powered applications to detect anomalous beh
 | 8.2 | Establish logging and alerting mechanisms for events that could suggest prompt leaks, such as the appearance of canary tokens (see 5.7) in logs or unexpected language patterns.                 |     | ✓   | ✓   |
 
 
----
+***
 
 ## Appendix A: Glossary
 
