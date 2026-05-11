@@ -13,15 +13,35 @@ We gratefully recognize the organizations who have supported the project either 
 
 **Please [log issues](https://github.com/OWASP/www-project-llm-verification-standard/issues) if you find any bugs or if you have ideas. We may subsequently ask you to [open a pull request](https://github.com/OWASP/www-project-llm-verification-standard/pulls) based on the discussion in the issue.**
 
+## Classification and audience
+
+**Classification:** Documentation
+
+**Audience:**
+
+* Builders
+* Breakers
+* Defenders
+
+## Repository and community
+
+* [GitHub repository](https://github.com/OWASP/www-project-llm-verification-standard)
+* [Releases (changelog)](https://github.com/OWASP/www-project-llm-verification-standard/releases)
+* [Join OWASP Slack](https://owasp.org/slack/invite)
+* [#project-llmvs on Slack](https://owasp.slack.com/messages/C06MDJG0KBK)
+
 ## Project Leaders and Working Group
 
 The project is led by the two project leaders [Vandana Verma Sehgal](https://github.com/vermava) and [Elliot Ward](https://github.com/mowzk).
 
-## Initial Draft Version - 0.1
+## [Initial Draft Version - 1.0 ](OWASP_Large_Language_Model_Security_Verification_Standard-0.1_en.md)
 
 The latest stable version is version 0.1 (dated February 2024), which can be found:
 
-* [OWASP Large Language Model Security Verification Standard 0.1 English (PDF)](https://github.com/OWASP/www-project-llm-verification-standard/releases/tag/0.1)
+* [OWASP Large Language Model Security Verification Standard 1.0 English (PDF)](https://github.com/OWASP/www-project-llm-verification-standard/releases/tag/0.1)
+
+## Version 2.0 is set to release on June 15th
+
 
 The master branch of this repository will always be the "bleeding edge version" which might have in-progress changes or other edits open.
 
