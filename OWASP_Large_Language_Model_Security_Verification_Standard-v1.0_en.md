@@ -51,7 +51,7 @@ Copyright © 2008–2024 The OWASP Foundation. This document is released under t
 
 ### Project leads
 
-- Vandana Sehgal  
+- Vandana Verma Sehgal  
 - Elliot Ward  
 
 ### Other contributors and reviewers
