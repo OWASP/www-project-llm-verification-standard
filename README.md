@@ -23,13 +23,6 @@ We gratefully recognize the organizations who have supported the project either 
 * Breakers
 * Defenders
 
-## Repository and community
-
-* [GitHub repository](https://github.com/OWASP/www-project-llm-verification-standard)
-* [Releases (changelog)](https://github.com/OWASP/www-project-llm-verification-standard/releases)
-* [Join OWASP Slack](https://owasp.org/slack/invite)
-* [#project-llmvs on Slack](https://owasp.slack.com/messages/C06MDJG0KBK)
-
 ## Project Leaders and Working Group
 
 The project is led by the two project leaders [Vandana Verma Sehgal](https://github.com/vermava) and [Elliot Ward](https://github.com/mowzk).
@@ -44,6 +37,13 @@ The project is led by the two project leaders [Vandana Verma Sehgal](https://git
 
 The master branch of this repository will always be the "bleeding edge version" which might have in-progress changes or other edits open.
 
+## Repository and community
+
+* [GitHub repository](https://github.com/OWASP/www-project-llm-verification-standard)
+* [Releases (changelog)](https://github.com/OWASP/www-project-llm-verification-standard/releases)
+* [Join OWASP Slack](https://owasp.org/slack/invite)
+* [#project-llmvs on Slack](https://owasp.slack.com/messages/C06MDJG0KBK)
+
 ## Standard Objectives
 
 The requirements were developed with the following objectives in mind:
@@ -56,9 +56,6 @@ The requirements were developed with the following objectives in mind:
 6. **Promote Best Practices in LLM Security**: Encourage the adoption of industry best practices in securing LLM-based systems.
 7. **Align Security Expectations Among Stakeholders**: Establish a common understanding of security expectations among developers, security professionals, vendors, and clients.
 
-## License
-
-The entire project content is under the **[Creative Commons Attribution-Share Alike v4.0](LICENSE.md)** license.
 
 ## [Contributing](CONTRIBUTING.md)
 
@@ -88,3 +85,8 @@ Before submitting a pull request, please make sure:
 We ask that all contributors to OWASP projects abide by our [Code of Conduct](https://owasp.org/www-policy/operational/code-of-conduct). This code outlines our expectations for behavior within the project community and helps us maintain a welcoming and inclusive environment for all contributors.
 
 Thank you for your interest in contributing to an OWASP project. We appreciate your efforts to help us improve and grow our projects.
+
+
+## License
+
+The entire project content is under the **[Creative Commons Attribution-Share Alike v4.0](LICENSE.md)** license.
