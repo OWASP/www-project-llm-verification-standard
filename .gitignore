@@ -1,8 +1,0 @@
-/Gemfile
-/Gemfile.lock
-/favicon.ico
-_site/
-
-# Editor / IDE — shared workspace UI excludes
-.vscode/*
-!.vscode/settings.json
