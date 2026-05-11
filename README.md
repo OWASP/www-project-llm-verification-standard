@@ -34,14 +34,15 @@ We gratefully recognize the organizations who have supported the project either 
 
 The project is led by the two project leaders [Vandana Verma Sehgal](https://github.com/vermava) and [Elliot Ward](https://github.com/mowzk).
 
-## [Initial Draft Version - 1.0 ](OWASP_Large_Language_Model_Security_Verification_Standard-0.1_en.md)
+## Standard documents (Markdown)
 
-The latest stable version is version 0.1 (dated February 2024), which can be found:
+- **[LLMSVS v2.0 (English)](OWASP_Large_Language_Model_Security_Verification_Standard-v2.0_en.md)** — current draft aligned with the upcoming 2.0 release.
 
-* [OWASP Large Language Model Security Verification Standard 1.0 English (PDF)](https://github.com/OWASP/www-project-llm-verification-standard/releases/tag/0.1)
+- **[LLMSVS v1.0 (English)](OWASP_Large_Language_Model_Security_Verification_Standard-v1.0_en.md)** — Markdown edition matching the historical **0.1** publication track (February 2024); same requirement numbering as the community PDF:
+
+  * [OWASP Large Language Model Security Verification Standard — release 0.1 (PDF)](https://github.com/OWASP/www-project-llm-verification-standard/releases/tag/0.1)
 
 ## Version 2.0 is set to release on June 15th
-
 
 The master branch of this repository will always be the "bleeding edge version" which might have in-progress changes or other edits open.
 
