@@ -2,3 +2,6 @@
 /Gemfile.lock
 /favicon.ico
 _site/
+
+# Editor / IDE (local only)
+.vscode/
