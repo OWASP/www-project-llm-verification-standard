@@ -1,16 +1,15 @@
 ---
 title: OWASP Large Language Model Security Verification Standard
 lang: en
-version: '2.0'
-status: set to release
+version: '1.0'
+status: release
 ---
 
-# OWASP Large Language Model Security Verification Standard (LLMSVS)
+# LLMSVS v1.0 — OWASP Large Language Model Security Verification Standard (LLMSVS)
 
-**Version:** 2.0 (English)  
-**Publication year:** 2026  
+**Publication year:** 2024  
 
-This document is the Markdown edition of the OWASP LLMSVS English release. It carries forward the full verification requirement set from the initial 0.1 release (February 2024) through version 2.0, organized for web rendering, version control, and derivative builds.
+This document is the Markdown edition of the OWASP LLMSVS English release. It contains the same technical content as the official PDF for version 0.1, organized for web rendering, version control, and derivative builds.
 
 ## Table of contents
 
@@ -19,6 +18,7 @@ This document is the Markdown edition of the OWASP LLMSVS English release. It ca
   - [Copyright and license](#copyright-and-license)
   - [Project leads](#project-leads)
   - [Other contributors and reviewers](#other-contributors-and-reviewers)
+  - [Major supporters and sponsors](#major-supporters-and-sponsors)
 - [Preface](#preface)
 - [Utilizing the LLMSVS](#utilizing-the-llmsvs)
   - [Security verification layers](#security-verification-layers)
@@ -53,7 +53,18 @@ Copyright © 2008–2024 The OWASP Foundation. This document is released under t
 - Vandana Verma Sehgal  
 - Elliot Ward  
 
-If a credit is missing from the credit list above, please log a ticket on GitHub to be recognized in future updates.
+### Other contributors and reviewers
+
+| Name | Organization |
+| ---- | ------------ |
+| Eric Allen | Lakera |
+| Frawa Vetterli | Lakera |
+| Rory McNamara | Snyk |
+| Raul Onitza-Klugman | Snyk |
+| Moshe Ben-Nehemia | Snyk |
+| Sam Watts | Lakera |
+
+If a credit is missing from the 0.1 credit list above, please log a ticket on GitHub to be recognized in future 0.x updates.
 
 The Large Language Model Security Verification Standard is built upon the initial research performed into LLM security by the Snyk Security Labs team in 2023. Much of the concept, structure, boilerplate and tooling for the LLMSVS has been adapted from the OWASP ASVS project. Thank you to all those previously involved in the OWASP ASVS.
 
@@ -73,15 +84,15 @@ Lakera, a security company that empowers developers to confidently build secure 
 
 ## Preface
 
-Welcome to version 2.0 of the OWASP Large Language Model Security Verification Standard (LLMSVS), which provides a framework for evaluating the security of applications and systems that integrate Large Language Models (LLMs). This release builds on the initial 0.1 publication and subsequent community feedback.
+Welcome to the first alpha release of the OWASP Large Language Model Security Verification Standard (LLMSVS), which provides a framework for evaluating the security of applications and systems that integrate Large Language Models (LLMs).
 
 The LLMSVS aims to offer clear and practical guidelines that apply universally and assist developers, architects, security professionals, vendors, and researchers in securing LLM-powered systems.
 
-The LLMSVS is the result of a collaborative effort drawing on the expertise of professionals across various sectors. It addresses the unique security challenges presented by LLMs, focusing on functional and non-functional security aspects. This version continues to lay the foundation for an adapting set of guidelines shaped by ongoing feedback and the changing dynamics of LLMs, emerging Artificial Intelligence (AI) technologies, and advances in cybersecurity.
+The LLMSVS is the result of a collaborative effort drawing on the expertise of professionals across various sectors. It addresses the unique security challenges presented by LLMs, focusing on functional and non-functional security aspects. This alpha release lays the foundation for an adapting set of guidelines shaped by ongoing feedback and the changing dynamics of LLMs, emerging Artificial Intelligence (AI) technologies, and advances in cybersecurity.
 
-The standard will continue to evolve based on contributions from the community and advancements in the field. We recognize that there is no one-size-fits-all security solution, especially in a field as emergent as AI, and we anticipate the need for regular updates and refinements.
+This release creates a starting point for discussing and improving the verification standard. This standard is not final and will evolve based on contributions from the community and advancements in the field. We recognize that there is no one-size-fits-all security solution, especially in a field as emergent as AI, and we anticipate the need for regular updates and refinements.
 
-We invite the broader community to participate in developing and enhancing the LLMSVS. We value the diverse perspectives and expertise each participant brings to this project. Your feedback and contributions are crucial to ensuring the standard remains relevant and practical.
+This alpha release invites the broader community to participate in developing and enhancing the LLMSVS. We value the diverse perspectives and expertise each participant brings to this project. Your feedback and contributions are crucial to ensuring the standard remains relevant and practical.
 
 We’d like to thank the contributors for their valuable input and look forward to your continued support and involvement in developing the LLMSVS.
 
