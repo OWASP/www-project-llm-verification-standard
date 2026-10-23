@@ -11,12 +11,15 @@ status: release
 
 This document is the Markdown edition of the OWASP LLMSVS English release. It carries forward the full verification requirement set from the initial 0.1 release (February 2024) through version 2.0, organized for web rendering, version control, and derivative builds.
 
+Requirement changes after this release are in the [v2.1 draft](LLMSVS-v2.1-draft-en.md). That draft is not a release. Cite this document until the project accepts a newer edition.
+
 ## Table of contents
 
 - [Frontispiece](#frontispiece)
   - [About the standard](#about-the-standard)
   - [Copyright and license](#copyright-and-license)
   - [Project leads](#project-leads)
+  - [Other contributors and reviewers](#other-contributors-and-reviewers)
   - [Major supporters and sponsors](#major-supporters-and-sponsors)
 - [Preface](#preface)
 - [Utilizing the LLMSVS](#utilizing-the-llmsvs)
@@ -46,12 +49,39 @@ The Large Language Model Security Verification Standard is a list of specific AI
 
 ### Copyright and license
 
-Copyright © 2008–2026 The OWASP Foundation. This document is released under the [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/). For any reuse or distribution, you must make clear to others the license terms of this work.
+Copyright © 2024–2026 The OWASP Foundation. This document is released under the [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/). For any reuse or distribution, you must make clear to others the license terms of this work.
 
 ### Project leads
 
 - Vandana Verma Sehgal  
 - Elliot Ward
+
+### Other contributors and reviewers
+
+| Name | Organization |
+| ---- | ------------ |
+| Eric Allen | Lakera |
+| Frawa Vetterli | Lakera |
+| Rory McNamara | Snyk |
+| Raul Onitza-Klugman | Snyk |
+| Moshe Ben-Nehemia | Snyk |
+| Sam Watts | Lakera |
+
+If a credit is missing from the 0.1 list above, open a GitHub issue so it can be added.
+
+The Large Language Model Security Verification Standard is built upon research performed by the Snyk Security Labs team in 2023. Structure and assessment practice are adapted from the OWASP ASVS project.
+
+### Major supporters and sponsors
+
+#### Snyk
+
+The LLMSVS project was founded to share knowledge from AI and LLM research in the Snyk Security Labs team. Snyk supported the initial requirements and the start of the project.
+
+#### Lakera
+
+Lakera reviewed and proofread an early draft of this standard and gave guidance on model-lifecycle security and secure LLM integration.
+
+See also [SUPPORTERS.md](SUPPORTERS.md).
 
 ***
 
@@ -119,7 +149,7 @@ Several LLMSVS requirements refer to the [OWASP Application Security Verificatio
 
 OWASP, as a vendor-neutral not-for-profit organization, does not currently certify any vendors, verifiers or software.
 
-All such assurance assertions, trust marks, or certifications are not officially vetted, registered, or certified by OWASP, so an organization relying upon such a view needs to be cautious of the trust placed in any third party or trust mark claiming (LLM)SVS certification.
+All such assurance assertions, trust marks, or certifications are not officially vetted, registered, or certified by OWASP, so an organization relying upon such a view needs to be cautious of the trust placed in any third party or trust mark claiming LLMSVS certification.
 
 This should not inhibit organizations from offering such assurance services, as long as they do not claim official OWASP certification.
 
