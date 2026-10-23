@@ -29,3 +29,5 @@ Before submitting a pull request, please make sure:
 We ask that all contributors to OWASP projects abide by our [Code of Conduct](https://owasp.org/www-policy/operational/code-of-conduct). This code outlines our expectations for behavior within the project community and helps us maintain a welcoming and inclusive environment for all contributors.
 
 Thank you for your interest in contributing to an OWASP project. We appreciate your efforts to help us improve and grow our projects.
+
+.
