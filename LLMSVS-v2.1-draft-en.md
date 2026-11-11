@@ -274,6 +274,7 @@ The application, not the end user and not the model, decides what is trusted. Pr
 | 5.21 | Verify that the provider's retention of prompts and its use of those prompts for training are documented, and that the configuration matches that decision. | `api` |  | ✓ | ✓ |
 | 5.22 | Verify that model output presented as fact is either limited to supplied sources or labeled as unverified before a person or another system acts on it. | `api`, `retrieval` |  | ✓ | ✓ |
 | 5.23 | Verify that release tests for the LLM feature include direct injection, indirect injection, sensitive-data extraction, and, where tools exist, unapproved tool use, and that the results are recorded. | `api`, `retrieval`, `agent`, `training` |  | ✓ | ✓ |
+| 5.24 | Verify that any security control applied to a streamed completion, including redaction, content blocking, and prompt-leak or canary checks, produces the same result regardless of where the stream is split into chunks. | `api` |  | ✓ | ✓ |
 
 ### Verification notes
 
@@ -300,6 +301,7 @@ The application, not the end user and not the model, decides what is trusted. Pr
 - **5.21** New in this draft. The decision record and the provider setting. Not applicable when no external provider stores prompts.
 - **5.22** New in this draft. The user-facing or downstream presentation, showing citations bound to retrieved sources or an unverified label.
 - **5.23** New in this draft. The latest test record tied to a release. Training-specific tests before model approval remain 2.16.
+- **5.24** New in this draft. A known value replayed with the stream cut at every offset inside that value, and confirmation that any held-back text is released when the stream ends. Controls that run only on the complete response, or that buffer to a natural boundary before inspecting, satisfy this requirement. Not applicable when completions are never streamed; record that reason.
 
 ***
 
@@ -405,7 +407,7 @@ Operators can see which model, prompt version, caller, tools, and documents were
 
 ## Appendix A: Requirement changes in this draft
 
-New identifiers: 1.5, 1.6, 2.19, 2.20, 4.7, 4.8, 4.9, 5.18, 5.19, 5.20, 5.21, 5.22, 5.23, 6.13, 6.14, 6.15, 6.16, 6.17, 7.7, 8.3, 8.4, 8.5.
+New identifiers: 1.5, 1.6, 2.19, 2.20, 4.7, 4.8, 4.9, 5.18, 5.19, 5.20, 5.21, 5.22, 5.23, 5.24, 6.13, 6.14, 6.15, 6.16, 6.17, 7.7, 8.3, 8.4, 8.5.
 
 Withdrawn identifiers, which must not be reused: 2.7, 2.11, 2.14, 2.15, 5.3, 5.6, 5.7, 5.8.
 
